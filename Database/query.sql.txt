@@ -1,0 +1,17 @@
+#USING SPRING JPA, NO DDL REQUIRED WHILE USING MYSQL
+create database stockdb;
+use stockdb;
+select * from customer;
+select * from stocks;
+select * from varient;
+select * from  payment;
+select * from company;
+select * from  booking;
+
+---------------------------------------------
+H2- DATABASE
+
+spring.datasource.url=jdbc:h2:mem:stockdb
+
+SELECT * FROM stockdb.admin;
+insert into admin values("admin","admin","Administrator"), After adding this you are able to login as Administrator

@@ -1,0 +1,35 @@
+.result {
+    height: 40px;
+    background-color: rgb(225, 207, 207);
+    width: 14.5%;
+  }
+  
+  .result p {
+    font-size: 25px;
+    margin: 5px;
+  
+  }
+  
+  .calculator-body {
+  
+    max-width: 350px;
+    margin: auto;
+  }
+  
+  .button {
+    display: block;
+    background-color: rgb(254, 253, 249);
+  }
+  
+  button {
+    width: 55px;
+    height: 40px;
+    font-size: 20px;
+  } 
+
+  h1{
+    font-style: oblique;
+  }
+  
+
+ 
